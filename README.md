@@ -21,8 +21,12 @@ CREATE TABLE products (
     price DECIMAL(10,2) NOT NULL
 );
 
-##Create a .env file in the root directory and add the following configuration:
-```.env
+
+## Environment Configuration
+
+Create a `.env` file in your project's root directory with the following configuration:
+
+```env
 DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=root
