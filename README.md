@@ -24,7 +24,7 @@ CREATE TABLE products (
 
 ## Environment Configuration
 
-Create a `.env` file in your project's root directory with the following configuration:
+## Create a `.env` file in your project's root directory with the following configuration:
 
 ```env
 DB_HOST=localhost
